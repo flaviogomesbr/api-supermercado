@@ -34,12 +34,12 @@ create database aula;
 # Executar o projeto dentro da IDE IntelliJ (ou software equivalente técnico)
 # Dentro do software PostMan, no campo do endereço, digitar http://localhost:8080/produto
 # Ainda no PostMan, no campo "body", executar a query do exemplo a seguir para gerar o primeiro registro (POST):
-$ {
+{
     "nome": "Feijão Branco",
     "valor": "5.49",
     "categoria": "basicos",
     "urlImagem": "https://static.clubeextra.com.br/img/uploads/1/787/23935787.png"
-  }
+}
 # Ainda no PostMan, para testar a requisição "DELETE", no campo endereço, digitar o id a ser deletado no final. Exemplo que apagará o 2° registro: http://localhost:8080/produto/2
 # Para consultar os registros no banco de dados, dentro do MySQL Workbench, digitar o seguinte comando :
 SELECT * FROM aula.produto;
