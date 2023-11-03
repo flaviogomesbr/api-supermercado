@@ -1,7 +1,7 @@
 <div align="center">
     <h1>CRUD com Java Spring Boot</h1>
     <img width=150 src='https://vlb.de/assets/downloads/logo-mercadolivre-site.png'>
-    <img width=150 src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fteamcubation.com%2F&psig=AOvVaw0WsvnLJ9_loUuwrm5a1YRv&ust=1699128297729000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKCg77TQqIIDFQAAAAAdAAAAABAE'>
+    <img width=150 src='https://teamcubation.com/media/logo-og-full.png'>
 </div>
 
 <p align="center">
