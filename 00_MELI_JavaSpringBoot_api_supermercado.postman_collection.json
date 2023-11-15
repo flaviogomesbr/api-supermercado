@@ -1,7 +1,8 @@
 {
 	"info": {
 		"_postman_id": "c6303d87-bd81-456c-b174-1099df1251ef",
-		"name": "Java Spring Boot - Ex.06 - MELI - CRUD supermercado ",
+		"name": "00_MELI_JavaSpringBoot_api_supermercado",
+		"description": "API supermercado",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
 		"_exporter_id": "13702584"
 	},
@@ -62,7 +63,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "    {\n        \"nome\": \"Macarrão Espaguete\",\n        \"valor\": 6.57,\n        \"categoria\": \"basicos\",\n        \"urlImagem\": \"https://static.clubeextra.com.br/img/uploads/1/787/23935787.png\"\n    }"
+					"raw": "{\n    \"nome\": \"Feijão Branco\",\n    \"valor\": 5.49,\n    \"categoria\": \"basicos\",\n    \"urlImagem\": \"https://static.clubeextra.com.br/img/uploads/1/787/23935787.png\"\n}"
 				},
 				"url": "http://localhost:8080/produto"
 			},
@@ -86,7 +87,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "    // Inserir um id de um produto existente a ser modificado e alterar demais propriedades //\n    \n    {\n        \"id\": 12,\n        \"nome\": \"Macarrão Redondo\",\n        \"valor\": 9.57,\n        \"categoria\": \"basicos\",\n        \"urlImagem\": \"https://static.clubeextra.com.br/img/uploads/1/787/23935787.png\"\n    }"
+					"raw": "// Inserir um id de um produto existente a ser modificado e alterar demais propriedades //\n{\n    \"id\": 12,\n    \"nome\": \"Macarrão Redondo\",\n    \"valor\": 8.52,\n    \"categoria\": \"basicos\",\n    \"urlImagem\": \"https://static.clubeextra.com.br/img/uploads/1/787/23935787.png\"\n}"
 				},
 				"url": "http://localhost:8080/produto"
 			},
@@ -101,7 +102,7 @@
 					"mode": "raw",
 					"raw": "// Inserir o id de um produto existente a ser deletado no campo de endereço. Exemplo: http://localhost:8080/produto/9 //"
 				},
-				"url": "http://localhost:8080/produto/10"
+				"url": "http://localhost:8080/produto/12"
 			},
 			"response": []
 		}
